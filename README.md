@@ -1,6 +1,6 @@
 # Django-Vue-Template
 
-This is a template for coexisting Django rest framework and Vue.js.
+This is a template for coexisting Django rest framework and Vue.js.  
 This is something I've prepared myself to help with development, but you are free to use this if you like it.
 
 ## Instalation
