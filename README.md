@@ -1,6 +1,6 @@
 # Django-Vue-Template
 
-This is a template for coexisting Django rest framework and Vue.js.  
+Template for coexisting Django REST framework and Vue.js.  
 This is something I've prepared myself to help with development, but you are free to use this if you like it.
 
 ## Instalation
@@ -12,7 +12,7 @@ To deploy the app locally, you will need to:
 - Install required modules
 
 ```sh
-        pipenv install
+pipenv install
 ```
 
 - (If you use PostgreSQL) Setup Database on PostgreSQL 
@@ -22,8 +22,14 @@ To deploy the app locally, you will need to:
 - Make migration files and migrate
 
 ```sh
-    python manage.py makemigrations
-    python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+```
+
+Then, you can check backend works with a command below, and access http://localhost:8000
+
+```sh
+python manage.py runserver
 ```
 
 ## Frontend
@@ -52,7 +58,7 @@ yarn install
 yarn serve
 ```
 
-Your default browser will open the test site http://localhost:8080
+Your default browser will open the test site http://localhost:3000
 
 ## Frontend - Production
 
